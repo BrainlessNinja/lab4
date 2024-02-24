@@ -4,5 +4,5 @@ def generator(n):
             yield i
             
 x = int(input())
-list1 = ', '.join(map(str, generator(n)))
+list1 = ', '.join(map(str, generator(x)))
 print(list1)
